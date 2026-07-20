@@ -1,0 +1,31 @@
+# Environment variables
+# Keep your secrets and environment-specific settings out of version control.
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+# Ignore byte-compiled files, caches, and distribution files.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+# Different developers might use different tools (venv, virtualenv, etc.).
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and editor configuration
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
